@@ -32,8 +32,6 @@ data/
   indonesia_reference_dataset.zip
 notebooks/
   Colab GPU notebook
-submission_easr/
-  EASR manuscript, blind manuscript, cover letter, checklist
 results/
   hardcore v2.1 output ZIP and summary
 ```

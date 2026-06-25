@@ -1,0 +1,33 @@
+country: Indonesia
+valid_start: '2025-06-01'
+test_start: '2025-12-01'
+random_state: 42
+top_k_ensemble: 3
+targets:
+  - target_high_mtm_top20_next
+  - target_high_yoy_top20_next
+  - target_high_mtm_top10_next
+  - target_high_yoy_top10_next
+labeling:
+  horizons: [1]
+  top_quantiles: [0.20, 0.10]
+  inflation_columns:
+    mtm: inflation_mtm
+    yoy: inflation_yoy
+models:
+  - dummy
+  - logistic_regression
+  - random_forest
+  - extra_trees
+  - xgboost
+  - lightgbm
+  - catboost
+metrics:
+  - average_precision
+  - roc_auc
+  - macro_f1
+  - balanced_accuracy
+  - precision_at_top10pct
+  - recall_at_top10pct
+  - precision_at_top20pct
+  - recall_at_top20pct

@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: "OpenCPI-Guard: A Reproducible Machine Learning Framework for Regional Inflation Pressure Detection from Official CPI Tables"
+message: "If you use this framework, please cite the accompanying manuscript."
+authors:
+  - family-names: "Fauzi"
+    given-names: "Ferian"
+version: 0.1.0
+date-released: 2026-06-24

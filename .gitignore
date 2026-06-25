@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Local environment / secrets
+.env
+.env.*
+*.key
+*.token
+credentials.json
+service_account.json
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large/intermediate outputs
+outputs/
+outputs_*/
+BPS-CPI_WORK/
+*.joblib
+*.pkl
+*.pickle
+*.model
+*.cbm
+
+# Raw temporary archives
+*.zip
+*.rar
+*.7z
+
+# Keep small result CSVs if already in results/
+!results/*.csv
+!results/*.md
+!results/*.json
+
+# Logs
+*.log
+logs/

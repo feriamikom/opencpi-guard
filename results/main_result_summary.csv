@@ -1,0 +1,5 @@
+target,test_pr_auc,test_roc_auc,test_macro_f1,interpretation
+Y-o-Y top-20 next month,0.695,0.893,0.820,strong annual pressure detection
+Y-o-Y top-10 next month,0.636,0.933,0.790,strong rare high-risk annual pressure detection
+M-to-M top-20 next month,0.340,0.637,0.566,moderate short-term shock detection
+M-to-M top-10 next month,0.193,0.687,0.561,difficult short-term rare shock detection
